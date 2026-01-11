@@ -1,0 +1,105 @@
+baseURL = "https://drmmpro.grebedoc.dev/"
+languageCode = "en"
+title = "Lightbi"
+theme = "lightbi-hugo"
+summaryLength  = "30"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic = true
+pygmentOptions = "linenos=inline"
+#googleAnalytics = "XXX"
+enableRobotsTXT = true
+enableGitInfo = false
+ignoreLogs = ['warning-goldmark-raw-html']
+copyright = "&copy; Copyright 2020 GLPH <@drmmpro>"
+
+[Params]
+  selfHosted = true
+  mainSections = ["posts"]
+  dateFormat = "02 January 2006"
+  comments = false
+  readingTime = false
+  wordCount = false
+  hideAuthor = false
+  useHLJS = true
+  socialShare = true
+  showRelatedPosts = true 
+  gcse = false
+  Lastmod = false
+  rss = true 
+  pagination = "10"
+  description="Club-Nations Projects with Hugo."
+  previewCardImagePlacement = "none"
+  hidePostImage = true
+  homepageLayout = "blog" # profile
+  # profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
+  # profilePhoto = "img/logo.png"
+
+[pagination]
+  pagerSize = 9
+
+[Params.Author]
+  name = "GLPH"
+  website = "https://glph.eu.cc/"
+  authorInfo = "Awesome Nations Club."
+  authorPostImage = "/img/author.png"
+  gravatar = "dr.chitkolinn@yahoo.com"
+  email = "mail@glph.eu.cc"
+  mastodon = "https://mstdn.plus/prothesmos"
+  twitter = "prothesmos"
+  linkedin = "prothesmos"
+  github = "drmmpro"
+  gitlab = "drmmpro"
+
+[[params.author.social]]
+    name = "Mastodon"
+    iclass = "icons/mastodon.svg"
+    url = "https://mstdn.plus/@prothesmos"
+
+[[params.author.social]]
+    name = "Github"
+    iclass = "icons/github.svg"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[caches]
+  [[caches.images]]
+    dir = ":cacheDir/images"
+
+# Menus
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+# Footer
+[[menu.footer]]
+    name = "Copyright"
+    url = "/license/"
+    weight = 1
