@@ -117,3 +117,6 @@ jobs:
           && github.ref == 'refs/heads/main'
           && github.repository == 'drmmpro/hugo'
         uses: actions/deploy-pages@v4
+        with:
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+           publish_dir: public/
