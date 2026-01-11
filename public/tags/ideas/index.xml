@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ideas on Lightbi</title>
-    <link>http://localhost:1313/tags/ideas/</link>
+    <link>https://drmmpro.grebedoc.dev/tags/ideas/</link>
     <description>Recent content in Ideas on Lightbi</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>mail@glph.eu.cc (GLPH)</webMaster>
     <copyright>&amp;copy; Copyright 2020 GLPH &lt;@drmmpro&gt;</copyright>
     <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://drmmpro.grebedoc.dev/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supports better organization of ideas</title>
-      <link>http://localhost:1313/notes/note-6/</link>
+      <link>https://drmmpro.grebedoc.dev/notes/note-6/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><author>mail@glph.eu.cc (GLPH)</author>
-      <guid>http://localhost:1313/notes/note-6/</guid>
+      <guid>https://drmmpro.grebedoc.dev/notes/note-6/</guid>
       <description>&lt;p&gt;Note-taking helps structure information logically, making complex topics easier to break down, review, and connect — especially useful for studying, writing, or planning.&lt;/p&gt;</description>
     </item>
   </channel>

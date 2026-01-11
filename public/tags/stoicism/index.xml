@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stoicism on Lightbi</title>
-    <link>http://localhost:1313/tags/stoicism/</link>
+    <link>https://drmmpro.grebedoc.dev/tags/stoicism/</link>
     <description>Recent content in Stoicism on Lightbi</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>mail@glph.eu.cc (GLPH)</webMaster>
     <copyright>&amp;copy; Copyright 2020 GLPH &lt;@drmmpro&gt;</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/stoicism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://drmmpro.grebedoc.dev/tags/stoicism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who am I ?!</title>
-      <link>http://localhost:1313/post/2020/who-am-i/</link>
+      <link>https://drmmpro.grebedoc.dev/post/2020/who-am-i/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>mail@glph.eu.cc (GLPH)</author>
-      <guid>http://localhost:1313/post/2020/who-am-i/</guid>
+      <guid>https://drmmpro.grebedoc.dev/post/2020/who-am-i/</guid>
       <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
     </item>
   </channel>
