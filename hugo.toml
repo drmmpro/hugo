@@ -36,7 +36,7 @@ copyright = "&copy; Copyright 2020 GLPH <@drmmpro>"
   hidePostImage = true
   homepageLayout = "blog" # profile
   # profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
-  profilePhoto = "img/logo.png"
+  profilePhoto = "imgs/logo.png"
 
 [pagination]
   pagerSize = 9
