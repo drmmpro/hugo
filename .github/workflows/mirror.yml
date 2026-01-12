@@ -1,0 +1,31 @@
+name: Mirror
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['**']
+    tags: ['**']
+
+jobs:
+  mirror:
+    name: Mirror
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Mirror to Codeberg
+        uses: cssnr/mirror-repository-action@v1
+        with:
+          url: https://github.com/drmmpro/hugo
+          host: https://codeberg.org
+          owner: drmmpro
+          repo: pages
+          create: true
+          username: drmmpro
+          password: ${{ secrets.CODEBERG_TOKEN }}
